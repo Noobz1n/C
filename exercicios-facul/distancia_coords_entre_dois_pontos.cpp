@@ -28,5 +28,5 @@ main(){
 
     coords.calc_distancia = sqrt(pow((coords.x2 - coords.x1), 2.0) + pow((coords.y2 - coords.y1), 2.0));
 
-    cout << "A distancia entre os pontos (" << coords.x1 << "," << coords.y1 << "), (" << coords.x2 << "," << coords.y2 << ") eh igual a: " << coords.calc_distancia;
+    cout << "A distancia entre os pontos (" << coords.x1 << "," << coords.y1 << "), (" << coords.x2 << "," << coords.y2 << ") eh igual a: " << coords.calc_distancia; 
 }
